@@ -440,9 +440,6 @@ h4 {
   margin-right: 1.75rem;
   cursor: pointer;
   transition: all 0.5s;
-
-  /* Only necessary when overlying images */
-  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
 }
 
 .dots__dot:last-child {
@@ -654,6 +651,8 @@ h4 {
 
 .cookie-message {
   display: flex;
+  position: fixed;
+  bottom: 0;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
